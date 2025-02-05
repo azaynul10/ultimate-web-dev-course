@@ -1,0 +1,20 @@
+<html>
+    <table
+        <thread>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Age</th>
+        </tr>
+    </thread>
+    <tbody>
+        <tr>
+          <td scope="row">John</td>
+          <td scope="row">30</td>
+        </tr>
+        <tr>
+            <td scope="row">Harry</td>
+            <td scope="row">26</td>
+        </tr>
+      </tbody>
+</table>
+</html>
