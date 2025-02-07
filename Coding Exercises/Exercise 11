@@ -1,0 +1,5 @@
+<html>
+    <label for"progress">70%
+    <progress id="progress" max="100" value="70"></progress>
+    </label>
+</html>

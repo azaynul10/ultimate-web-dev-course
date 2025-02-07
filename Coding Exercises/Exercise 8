@@ -1,0 +1,9 @@
+<html>
+    <form>
+        <select name="country" id="country-select">
+            <option value="India">India</option>
+            <option value="Canada">Canada</option>
+            <option value="UK">UK</option>
+        </select>
+    </form>
+</html>
