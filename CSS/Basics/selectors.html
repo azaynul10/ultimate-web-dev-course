@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selector Example</title>
+    <style>
+      /*Universal Selector*/
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      /* Type Selector */
+      p {
+        color: red;
+        font-size: 20px;
+        margin: 10px 20px 30px 40px;
+        padding: 1px 2px 3px;
+      }
+      h1 {
+        margin-bottom: 10px;
+      }
+      /* Class Selector */
+      .highlight {
+        background-color: yellow;
+        color: blue;
+      }
+      /* ID Selector */
+      #header {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        text-align: center;
+      }
+      /* Attribute Selector */
+      input[type="text"] {
+        border: 10px dashed red;
+        padding: 5px solid blue;
+        margin: 10px;
+      }
+      /* Descendant Selector */
+      article p {
+        color: green;
+        font-style: italic;
+        background-color: #1a1a1a;
+        padding: 10px;
+      }
+      /* Child Selector */
+      ul > li {
+        color: blue;
+        font-weight: bold;
+      }
+      div > p {
+        color: red;
+      }
+      /* Adjacent Sibling Selector */
+      h1 + p {
+        color: green;
+      }
+      /* General Sibling Selector */
+      h2 ~ p {
+        color: blue;
+      }
+      /* pseudo-class Selector */
+      p:hover {
+        background-color: yellow;
+        text-decoration: underline;
+        padding: 10px;
+        color: red;
+        margin: 10px;
+      }
+      /* pseudo-element Selector */
+      p::first-letter {
+        font-weight: bold;
+        color: red;
+        font-size: 30px;
+      }
+      /* Grouping Selector */
+      h1,
+      h2,
+      h3 {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">This is the header</header>
+
+    <h1>Main Heading</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta deserunt
+      molestiae iusto eos minima. A?
+    </p>
+    <p>Lorem ipsum dolor sit.</p>
+    <p class="highlight">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+      excepturi aut nobis harum iusto! Cumque, quibusdam!
+    </p>
+
+    <input type="text" placeholder="Enter your text" />
+
+    <article>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
+        architecto aliquam voluptate.
+      </p>
+    </article>
+    <ul>
+      <li>Item 1</li>
+      <li>
+        <ul>
+          <li>Nested Item 1</li>
+        </ul>
+      </li>
+      <li>Item 3</li>
+    </ul>
+  </body>
+</html>
