@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation Bar Variation</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #1a1a1a;
+        color: #fff;
+      }
+      .nav-container {
+        margin-bottom: 20px;
+      }
+      h2 {
+        margin-bottom: 10px;
+      }
+      /* Variation 1 */
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: #333;
+        padding: 10px 20px;
+      }
+      .navbar a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 15px;
+      }
+      .navbar-responsive ul {
+        list-style-type: none;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+      }
+      .navbar-responsive li {
+        display: inline;
+      }
+      .navbar-responsive a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 15px;
+        position: relative;
+      }
+      .navbar-responsive login-btn {
+        color: #fff;
+        padding: 5px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        position: relative;
+      }
+      .navbar-responsive a::after {
+        content: "abc";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #4709d7;
+        bottom: 0;
+        left: 0;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 0.5s ease-in-out;
+      }
+
+      .navbar-responsive a:hover::after {
+        transform: scaleX(1);
+        transform-origin: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav-container">
+      <h2>Variation 1: Horizontal with underline effect</h2>
+    </div>
+    <div class="navbar">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="navbar-responsive">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact</li>
+        <li class="login-btn"><a href="#">More...</a></li>
+      </ul>
+    </div>
+    <div class="navbar-variation">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="navbar-variation-responsive">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="navbar-variation-2">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </div>
+  </body>
+</html>
