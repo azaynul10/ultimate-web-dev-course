@@ -1,6 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+body, 
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "League Spartan", serif;
+    background-color: #fcf8f8;
+    height: 100%;
+    text-decoration-color: #fcf8f8;
+}
+
+.container {
+    background: linear-gradient(135deg, #0359d8 50%, #050200 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.content {
+    text-align: center;
+    background-color: rgba(0, 1, 1, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    color: #ea9e6c;
+    background-color: #050200;
+    display: flex;
+    padding: 0%;
+}
+
+h1 {
+    color: #f5f3f3;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
 p {
-    font-weight: bold;
-    color:aliceblue;
-    padding: 200px;
-    font-size: 125px;
+    color: #f4f3f2;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="email"] {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #5615bd;
+}
+
+button {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #6404fd;
+    color: #f4f3f2;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(9, 20, 231, 0.925);
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #86048b;
+}
+
+svg {
+    fill: #121212;
+    position: absolute;
 }
