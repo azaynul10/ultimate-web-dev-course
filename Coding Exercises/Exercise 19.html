@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      .parent-container {
+        position: relative;
+        width: 300px;
+        height: 300px;
+      }
+
+      .static-box {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+      }
+
+      .relative-box {
+        position: relative;
+        left: 50px; 
+        top: 50px;  
+        width: 100px;
+        height: 100px;
+        background-color: red;
+      }
+
+      .absolute-box {
+        position: absolute;
+        top: 30px;    
+        left: 30px;  
+        width: 100px;
+        height: 100px;
+        background-color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent-container">
+      <div class="static-box"></div>
+      <div class="relative-box"></div>
+      <div class="absolute-box"></div>
+    </div>
+  </body>
+</html>
