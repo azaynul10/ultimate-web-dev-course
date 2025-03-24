@@ -1,0 +1,60 @@
+<div class="m-4 grid-cols-2 gap-4 sm:grid-cols-2">
+  <div class="min-h-[100px] rounded-lg bg-orange-600">
+    <div>
+      <div class="min-h-[100px] rounded-lg bg-teal-600">
+        <div></div>
+        <div class="m-4 grid-cols-2 gap-4 sm:grid-cols-4">
+          <div class="min-h-[100px] rounded-lg bg-orange-600">
+            <div>
+              <div class="min-h-[100px] rounded-lg bg-teal-600">
+                <div>
+                  <div class="min-h-[100px] rounded-lg bg-red-600">
+                    <div>
+                      <div class="min-h-[100px] rounded-lg bg-blue-600">
+                        <div></div>
+                        <div class="m-4 grid-cols-3 gap-4 sm:grid-cols-12">
+                          <div
+                            class="sm:col-span-2 min-h-[100px] rounded-lg bg-orange-600"
+                          >
+                            <div>
+                              <div
+                                class="sm:col-span-10 min-h-[100px] rounded-lg bg-teal-600"
+                              >
+                                <div></div>
+                                <div
+                                  class="m-4 grid-cols-2 gap-4 sm:grid-cols-12"
+                                >
+                                  <div
+                                    class="min-h-[100px] rounded-lg bg-orange-600 shadow sm:col-span-2 sm:block hidden"
+                                  >
+                                    <div>
+                                      <div
+                                        class="min-h-[100px] rounded-lg bg-teal-600 shadow sm:col-span-2 sm:block"
+                                      >
+                                        <div>
+                                          <div
+                                            class="min-h-[100px] rounded-lg bg-red-600 shadow sm:col-span-2 sm:block"
+                                          >
+                                            <div></div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
